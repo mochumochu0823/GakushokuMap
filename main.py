@@ -1,9 +1,12 @@
 from maps.GakushokuSample import GakushokuSample
-from maps.AmayasuOsusume import AmayasuOsusume
+
+from maps.k25072Osusume import k25072Osusume
+from maps.Gakushoku25112 import Gakushoku25112
 
 # ↓のリストには、メンバーの各オススメ学食が格納されます。
 data = [GakushokuSample(), 
-        AmayasuOsusume(), 
+        k25072Osusume(),
+        Gakushoku25112()
         ]
 
 for rank, d in enumerate(data, start=1):
