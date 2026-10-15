@@ -1,6 +1,6 @@
 from maps.AbstractGakushoku import AbstractGakushoku
 
-class Gakusyoku_hana(AbstractGakushoku):
+class Gakushoku_hana(AbstractGakushoku):
 
     def get_menu(self):
         return "100円朝食"
